@@ -4,10 +4,6 @@ version: "0.0.1"
 api-version: 1.13
 authors: [Brokkonaut]
 
-commands:
-  setcustombiome:
-    permission: custombiomes.admin
   
-  
-depend: [CubesideUtils, CubesideNMSUtils]
+depend: [CubesideNMSUtils]
 softdepend: []
