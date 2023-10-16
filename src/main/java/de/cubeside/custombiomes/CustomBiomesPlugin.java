@@ -1,5 +1,6 @@
 package de.cubeside.custombiomes;
 
+import de.cubeside.nmsutils.BiomeUtils.GrassColorModifier;
 import de.cubeside.nmsutils.NMSUtils;
 import de.cubeside.nmsutils.biome.Precipitation;
 import org.bukkit.NamespacedKey;
@@ -15,5 +16,6 @@ public class CustomBiomesPlugin extends JavaPlugin {
         nmsUtils.getBiomeUtils().registerCustomBiome(new NamespacedKey("cubeside", "red_maple_woods"), 0.5f, 0.8f, Precipitation.RAIN, 0xEFEABE, 0xA0BBF1, 0x6464F0, 0x99C7CA, 0x702822, 0xFF9C35);
         nmsUtils.getBiomeUtils().registerCustomBiome(new NamespacedKey("cubeside", "blue_grove"), 0.5f, 0.8f, Precipitation.RAIN, 0xBF9ED1, 0x51ECB0, 0x3DC7A4, 0xDFB9F3, 0x66F0EB, 0x69D3B3);
         nmsUtils.getBiomeUtils().registerCustomBiome(new NamespacedKey("cubeside", "bloodborn"), 0.5f, 0.8f, Precipitation.RAIN, 0x7D7D7D, 0x862615, 0x55170D, 0x292929, 0x5E4520, 0x775728);
+        nmsUtils.getBiomeUtils().registerCustomBiome(new NamespacedKey("cubeside", "bloody_forest"), 0.8f, 0.7f, Precipitation.RAIN, 0xC0D8FF, 0x862615, 0x55170D, 0x78A7FF, null, null, GrassColorModifier.DARK_FOREST);
     }
 }
