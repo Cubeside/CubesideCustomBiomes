@@ -30,6 +30,7 @@
             <groupId>de.cubeside.nmsutils</groupId>
             <artifactId>nmsutils-plugin</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <classifier>all</classifier>
             <scope>provided</scope>
         </dependency>
     </dependencies>
