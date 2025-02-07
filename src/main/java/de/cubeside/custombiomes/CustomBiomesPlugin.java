@@ -18,5 +18,6 @@ public class CustomBiomesPlugin extends JavaPlugin {
         nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "bloodborn"), 0.5f, 0.8f, Precipitation.RAIN, 0x7D7D7D, 0x862615, 0x55170D, 0x292929, 0x5E4520, 0x775728);
         nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "bloody_forest"), 0.8f, 0.7f, Precipitation.RAIN, 0xC0D8FF, 0x862615, 0x55170D, 0x78A7FF, null, null, GrassColorModifier.DARK_FOREST);
         nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "dreary"), 0.5f, 0.8f, Precipitation.RAIN, 0xd9dee6, 0x818ca2, 0x171721, 0xafb8c9, 0x6b7c62, 0x899783);
+        nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "black_swamp"), 0.9f, 0.8f, Precipitation.RAIN, 0xC0D8FF, 0x000000, 0x000000, 0x78A7FF, 0x8DB127, 0x6A7039);
     }
 }
