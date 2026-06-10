@@ -19,7 +19,6 @@ public class CustomBiomesPlugin extends JavaPlugin {
         nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "bloody_forest"), 0.8f, 0.7f, Precipitation.RAIN, 0xC0D8FF, 0x862615, 0x55170D, 0x78A7FF, null, null, GrassColorModifier.DARK_FOREST);
         nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "dreary"), 0.5f, 0.8f, Precipitation.RAIN, 0xd9dee6, 0x818ca2, 0x171721, 0xafb8c9, 0x6b7c62, 0x899783);
         nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "black_swamp"), 0.9f, 0.8f, Precipitation.RAIN, 0xC0D8FF, 0x000000, 0x000000, 0x78A7FF, 0x8DB127, 0x6A7039);
-
         nmsUtils.getBiomeUtils().registerBiome(new NamespacedKey("cubeside", "winterland"), 0.5f, 0.0f, Precipitation.SNOW, 0xC0D8FF, 0x95d5e4, 0x95d5e4, 0xb9b9b9, 0xffffff, 0xccead8); // dry foliage: dbfffb
     }
 }
